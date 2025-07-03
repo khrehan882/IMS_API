@@ -41,7 +41,7 @@ routes/
 
 ```bash
 git clone https://github.com/khrehan882/IMS_API.git
-cd your-repo-name
+cd IMS_API
 ```
 
 ### 2. Install Dependencies
