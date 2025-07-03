@@ -78,7 +78,7 @@ php artisan migrate:fresh --seed
 php artisan serve
 ```
 
-Visit: [http://localhost:8000/api/inventory](http://localhost:8000/api/inventory)
+Visit: [http://localhost:8000](http://localhost:8000/api/inventory)
 
 ---
 
