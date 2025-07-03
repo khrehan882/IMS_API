@@ -1,4 +1,4 @@
-# 📦 Laravel Inventory Management API
+# Laravel Inventory Management API
 
 A scalable RESTful API built with Laravel and Query Builder (no Eloquent models), designed for inventory management, dynamic pricing, and transaction processing.
 
