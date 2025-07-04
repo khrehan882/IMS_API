@@ -118,7 +118,3 @@ Tables:
 - MySQL / PostgreSQL
 
 ---
-
-## 🧾 License
-
-MIT © 2025 Muhammad Rehan
