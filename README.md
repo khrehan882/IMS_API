@@ -25,7 +25,7 @@ app/
 │       ├── ProductController.php
 │       └── TransactionController.php
 ├── Services/
-│   └── AppServiceProvider.php (optional)
+│   └── AppServiceProvider.php
 database/
 ├── migrations/
 ├── seeders/
