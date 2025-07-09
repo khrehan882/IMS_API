@@ -1,4 +1,4 @@
-# 📦 Laravel Inventory Management API
+# Laravel Inventory Management API
 
 A scalable RESTful API built with Laravel and Query Builder (no Eloquent models), designed for inventory management, dynamic pricing, and transaction processing.
 
@@ -25,7 +25,7 @@ app/
 │       ├── ProductController.php
 │       └── TransactionController.php
 ├── Services/
-│   └── InventoryService.php (optional)
+│   └── AppServiceProvider.php
 database/
 ├── migrations/
 ├── seeders/
@@ -41,7 +41,7 @@ routes/
 
 ```bash
 git clone https://github.com/khrehan882/IMS_API.git
-cd your-repo-name
+cd IMS_API
 ```
 
 ### 2. Install Dependencies
@@ -78,7 +78,7 @@ php artisan migrate:fresh --seed
 php artisan serve
 ```
 
-Visit: [http://localhost:8000/api/inventory](http://localhost:8000/api/inventory)
+Visit: [http://localhost:8000](http://localhost:8000/api/inventory)
 
 ---
 
@@ -118,7 +118,3 @@ Tables:
 - MySQL / PostgreSQL
 
 ---
-
-## 🧾 License
-
-MIT © 2025 Muhammad Rehan
