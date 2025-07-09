@@ -16,18 +16,18 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             [
-                'sku' => 'Example _SKU_1',
-                'name' => 'Laptop',
-                'description' => '14 inch gaming laptop',
-                'price'=> 500,
+                'sku' => 'SKU_1',
+                'name' => 'Product One',
+                'description' => 'Time-based priced product',
+                'price'=> 800,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'sku' => 'Example_SKU_2',
-                'name' => 'Wireless Mouse',
-                'description' => 'Bluetooth enabled mouse',
-                'price'=> 800,
+                'sku' => 'SKU_2',
+                'name' => 'Product Two',
+                'description' => 'Quantity-based priced product',
+                'price'=> 850,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

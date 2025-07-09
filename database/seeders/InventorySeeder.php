@@ -14,20 +14,20 @@ class InventorySeeder extends Seeder
     {
         DB::table('inventories')->insert([
             [
-                'sku' => 'Example_SKU_1',
-                'location' => 'warehouse1',
-                'quantity' => 25,
-                'cost' => 750,
-                'batch' => 'LAPTOP-B1',
+                'sku' => 'SKU_1',
+                'location' => 'Warehouse A',
+                'quantity' => 100,
+                'cost' => 700,
+                'batch' => 'LOT123-TB',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'sku' => 'Example_SKU_2',
-                'location' => 'warehouse2',
+                'sku' => 'SKU_2',
+                'location' => 'Warehouse B',
                 'quantity' => 60,
-                'cost' => 20,
-                'batch' => 'MOUSE-B2',
+                'cost' => 750,
+                'batch' => 'LOT456-QB',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

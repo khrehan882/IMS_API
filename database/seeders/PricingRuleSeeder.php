@@ -14,19 +14,19 @@ class PricingRuleSeeder extends Seeder
     {
         DB::table('pricing_rules')->insert([
             [
-                'sku' => 'Example_SKU_1',
+                'sku' => 'SKU_1',
                 'type' => 'time_based',
-                'price' => 699,
-                'min_quantity' => 5,
+                'price' => 720,
+                'min_quantity' => Null,
                 'start_time' => now(),
                 'end_time' => now(),
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'sku' => 'Example _SKU_2',
+                'sku' => 'SKU_2',
                 'type' => 'quantity_based',
-                'price' => 18,
+                'price' => 700,
                 'min_quantity' => 10,
                 'start_time' => now(),
                 'end_time' => now(),
